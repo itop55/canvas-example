@@ -1,0 +1,30 @@
+#canvas1, #canvas2, #canvas3 {
+    width: 400px;
+    height: 200px;
+    border: 3px solid green;
+    margin: 0 40px 15px;
+    background-image: url(img/setka.png);
+}
+
+.canvas-container {
+    display: flex;
+}
+
+.canvas p {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.canvas3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas3 input {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.canvas__color {
+    margin: 0 40px;
+}

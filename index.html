@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Canvas Example</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" defer></script>
 </head>
 <body>
-
+    <div class="canvas-container">
+        <div class="canvas canvas1">
+            <p>Rectangle</p>
+            <canvas id="canvas1" width="400" height="200"></canvas>
+        </div>
+        <div class="canvas canvas2">
+            <p>Line</p>
+            <canvas id="canvas2" width="400" height="200"></canvas>
+        </div>
+        <div class="canvas canvas3">
+            <p>Animation</p>
+            <canvas id="canvas3" width="400" height="200"></canvas>
+            <div class="canvas__color">
+                <label for="canvas3color">Color</label>
+                <input type="color" id="canvas3color">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
